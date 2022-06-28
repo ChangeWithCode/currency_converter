@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+
+@media only screen and (max-device-width: 720px) {
+
+  #root > div > div.row.d-flex.justify-content-center.currency_form
+
+{
+    display: contents !important;
+}
+
+.box {
+  height: 105vh !important;
+}
+
+}
+
+.currency_form
+
+{
+  padding-right: 15rem!important;
+  padding-left: 15rem!important;
+
+}
+
+.box {
+  height: 100vh;
+}
